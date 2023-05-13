@@ -1,5 +1,6 @@
 # Rick add person class 5/13
 import random
+
 class Person:
     def __init__(self,Name,Video_Count,Character):
         self.Name = Name
