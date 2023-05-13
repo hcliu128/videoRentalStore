@@ -38,22 +38,13 @@ class Main:
         self.store.add_video(self.Video)
     def show_video(self):
         self.store.show_video()
+    def run():
+        for i in range(34):
+            pass
 
 main = Main()
 main.set_customer()
 main.show_customer()
 main.set_videos()
 main.show_video()
-'''
-a = Horror('1', 'Home', '0512')
-print(a.videoName)
 
-videoList = []
-videoKind = ['Romance', 'NewRelease', 'Comedy', 'Horror']
-for i in videoKind:
-    for _ in range(1, 6):
-        locals()[i+str(_) ] = Romance(f'{i}{_}', 'Onboard', None)
-        videoList.append(f'{i}{_}')
-
-print(videoList)
-'''
