@@ -1,6 +1,5 @@
 import abc
 class Video(abc.ABC):
-    
     pass
 
 class Romance(Video):
