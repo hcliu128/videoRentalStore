@@ -1,7 +1,7 @@
-from abc import ABCMeta
-class Video(ABCMeta):
-    def __init__(self):
-        pass
+import abc
+class Video(abc.ABC):
+    
+    pass
 
 class Romance(Video):
     def __init__(self, videoName, price, status, startTime):
@@ -30,3 +30,6 @@ class Horror(Video):
         self.price = 4 # undetermined
         self.status = status
         self.startTime = startTime
+    
+a = Horror('1',  4, 'Home', '0512')
+print(a.videoName)
