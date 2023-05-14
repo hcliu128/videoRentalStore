@@ -32,9 +32,11 @@ class Horror(Video):
         self.price = 4 # undetermined
         self.status = status
         self.startTime = startTime
+        self.endTime = endTime
 class Drama(Video):
-    def __init__(self, videoName, status, startTime):
+    def __init__(self, videoName, status, startTime,endTime):
         self.videoName = videoName
         self.price = 4 # undetermined
         self.status = status
         self.startTime = startTime
+        self.endTime = endTime
