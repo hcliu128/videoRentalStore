@@ -28,6 +28,8 @@ class Store():
         self.dailyRecord.append(data)
         print(data)
 
+    
+
 # if __name__ == "__main__":
 store = Store()
 # dailyRecord 寫法？

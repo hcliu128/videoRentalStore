@@ -32,14 +32,19 @@ class Horror(Video):
         self.price = 4 # undetermined
         self.status = status
         self.startTime = startTime
+<<<<<<< HEAD
         self.endTime = endTime
 
+=======
+        
+>>>>>>> 39ce9f49359b4ca6ebb54afa95de75352813e763
 class Drama(Video):
     def __init__(self, videoName, status, startTime, endTime):
         self.videoName = videoName
         self.price = 3 # undetermined
         self.status = status
         self.startTime = startTime
+<<<<<<< HEAD
         self.endTime = endTime
 # 裝 video instance 的 list
 videoList = []
@@ -60,3 +65,5 @@ for _ in range(1, 6):
     locals()['Drama'+str(_) ] = Drama(f'Drama{_}', 'Onboard', None, None)
     videoList.append(locals()['Drama'+str(_) ])
 
+=======
+>>>>>>> 39ce9f49359b4ca6ebb54afa95de75352813e763
