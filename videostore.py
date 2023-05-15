@@ -1,3 +1,5 @@
+import random
+
 class VideoStore:
     def __init__(self):
         self.videos_list = [[0 for j in range(4)] for i in range(5)]
@@ -15,25 +17,45 @@ class VideoStore:
         #print(self.videos)
         for i in range(5):
             for j in range(4):
-                print(self.videos_list[i][j].videoName,self.videos_list[i][j].status,self.videos_list[i][j].startTime,self.videos_list[i][j].endTime)
-    def lendVideo(self, **kwargs):
-        (person, video, startTime) = (kwargs['person'], kwargs['video'], kwargs['startTime'])
-        video.status = person.Name
-        video.startTime = startTime
-        person.Video_Count += 1
-        print('|success lend','|video='+video.videoName,'\t|status='+video.status,'\t|start time='+str(video.startTime),'|count='+str(person.Video_Count))
+                print(self.videos_list[i][j].videoName,self.videos_list[i][j].status,self.videos_list[i][j].startTime,self.videos_list[i][j].duration)
+    def lendVideo(**kwargs):
+        (person, video, startTime, onboard) = (kwargs['person'], kwargs['video'], kwargs['startTime'], kwargs['onboard'])
+        if video.status == 'Onboard':
+            video.status = person
+            video.startTime = startTime
+            person.Video_Count += 1
+            if person.Character == 'Breezy':
+                video.duration = random.randint(1,2)
+            elif person.Character == 'Hoarders':
+                video.duration = 7
+            elif person.Character == 'Regular':
+                video.duration = random.randint(3, 5)
+            print('|success lend','|video='+video.videoName,'\t|status='+video.status.Name,'\t|start time='+str(video.startTime),'\t|duration='+str(video.duration),'|count='+str(person.Video_Count))
+            onboard -= 1
+            print(f'resting {onboard}')
+            return onboard
+        else:return onboard
     def returnVideo(self, **kwargs):
         data = {}
-        (person, video, endTime, price) = (kwargs['person'], kwargs['video'], kwargs['endTime'], kwargs['price'])
+        (person, video, price) = (kwargs['person'], kwargs['video'], kwargs['price'])
         video.status = 'Onboard'
         startTime = video.startTime
-        video.endTime = endTime
+        duration = video.duration
+        if startTime + duration > 35:
+            
+            duration = 35 - startTime
+            print(f"change duration to {duration}")
         person.Video_Count -= 1
         data['person'] = person.Name
         data['video'] = video.videoName
-        data['rental_day'] = endTime-startTime
-        data['cost'] = (endTime-startTime) * price
+        data['rental_day'] = video.duration
+        data['cost'] = (duration) * price
         self.dailyRecord.append(data)
-        print(data)
+        # print(data)
+        print('|success return','|video='+video.videoName,'\t|status='+video.status,'\t|duration='+str(duration),'|count='+str(person.Video_Count))
+        video.status = 'Onboard'
+        video.startTime = 0
+        video.duration = 0
+
     def Daily_record(self):
         pass        
