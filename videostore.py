@@ -58,7 +58,7 @@ class VideoStore:
                 if self.videos_list[i][j].status =='Onboard':
                     toady.append(self.videos_list[i][j].videoName)
         self.__video_in_shop.append(toady)
-        print('videos in shop:',self.__video_in_shop[day-1])
+        print(len(self.__video_in_shop[day-1]),'videos in shop:',self.__video_in_shop[day-1])
 
 
         
