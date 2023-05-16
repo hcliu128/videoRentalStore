@@ -1,13 +1,13 @@
-Emma 0 Hoarders
-Liam 0 Hoarders
+Emma 0 Regular
+Liam 0 Breezy
 Olivia 0 Regular
 Noah 0 Hoarders
 Ava 0 Breezy
-Sophia 0 Hoarders
-Jackson 0 Breezy
+Sophia 0 Regular
+Jackson 0 Regular
 Isabella 0 Hoarders
-Aiden 0 Regular
-Mia 0 Breezy
+Aiden 0 Breezy
+Mia 0 Regular
 The Notebook Onboard 0 0
 Titanic Onboard 0 0
 Love Actually Onboard 0 0
@@ -29,566 +29,487 @@ Hypnotic Onboard 0 0
 The Mother Onboard 0 0
 Mercy Onboard 0 0
 ----------------Day1 start-------------
+Hoarders
+|success lend |video=The Godfather 	|status=Noah 	|start time=1 	|duration=7 |count=1
+resting 19
+Hoarders
+|success lend |video=The Exorcist 	|status=Isabella 	|start time=1 	|duration=7 |count=1
+resting 18
+Hoarders
+|success lend |video=The Hangover 	|status=Noah 	|start time=1 	|duration=7 |count=2
+resting 17
+Breezy
+|success lend |video=Hypnotic 	|status=Aiden 	|start time=1 	|duration=2 |count=1
+resting 16
+Regular
+|success lend |video=Titanic 	|status=Olivia 	|start time=1 	|duration=3 |count=1
+resting 15
 ----------------Day2 start-------------
 Regular
-|success lend |video=BlackBerry 	|status=Olivia 	|start time=2 	|duration=5 |count=1
-resting 19
-----------------Day3 start-------------
-Hoarders
-|success lend |video=The Shawshank Redemption 	|status=Sophia 	|start time=3 	|duration=7 |count=1
-resting 18
-----------------Day4 start-------------
-Regular
-|success lend |video=A star is Born 	|status=Aiden 	|start time=4 	|duration=5 |count=1
-resting 17
-Regular
-|success lend |video=Hypnotic 	|status=Olivia 	|start time=4 	|duration=4 |count=2
-resting 16
-Regular
-|success lend |video=Forrest Gump 	|status=Olivia 	|start time=4 	|duration=3 |count=3
-resting 15
-Breezy
-|success lend |video=The shining 	|status=Ava 	|start time=4 	|duration=1 |count=1
+|success lend |video=Anchorman 	|status=Olivia 	|start time=2 	|duration=5 |count=2
 resting 14
+Hoarders
+|success lend |video=BlackBerry 	|status=Noah 	|start time=2 	|duration=7 |count=3
+resting 13
 Regular
-|success lend |video=The Notebook 	|status=Aiden 	|start time=4 	|duration=3 |count=2
-resting 13
-----------------Day5 start-------------
-Ava Emma
-Ava Liam
-Ava Olivia
-Ava Noah
-Ava Ava
-{'person': 'Ava', 'video': 'The shining', 'rental_day': 1, 'cost': 4}
-|success return |video=The shining 	|status=Onboard 	|duration1 |count=0
-resting14
-----------------Day6 start-------------
-Hoarders
-|success lend |video=Love Actually 	|status=Emma 	|start time=6 	|duration=7 |count=1
-resting 13
-Hoarders
-|success lend |video=The shining 	|status=Sophia 	|start time=6 	|duration=7 |count=2
+|success lend |video=Forrest Gump 	|status=Mia 	|start time=2 	|duration=5 |count=1
 resting 12
-Hoarders
-|success lend |video=La La Land 	|status=Sophia 	|start time=6 	|duration=7 |count=3
-resting 11
-----------------Day7 start-------------
-Aiden Emma
-Aiden Liam
-Aiden Olivia
-Aiden Noah
-Aiden Ava
-Aiden Sophia
-Aiden Jackson
-Aiden Isabella
-Aiden Aiden
-{'person': 'Aiden', 'video': 'The Notebook', 'rental_day': 3, 'cost': 6}
-|success return |video=The Notebook 	|status=Onboard 	|duration3 |count=1
-resting12
-Olivia Emma
-Olivia Liam
-Olivia Olivia
-{'person': 'Olivia', 'video': 'Forrest Gump', 'rental_day': 3, 'cost': 12}
-|success return |video=Forrest Gump 	|status=Onboard 	|duration3 |count=2
+----------------Day3 start-------------
+{'person': 'Aiden', 'video': 'Hypnotic', 'rental_day': 2, 'cost': 10}
+|success return |video=Hypnotic 	|status=Onboard 	|duration2 |count=0
 resting13
-Olivia Emma
-Olivia Liam
-Olivia Olivia
-{'person': 'Olivia', 'video': 'BlackBerry', 'rental_day': 5, 'cost': 25}
-|success return |video=BlackBerry 	|status=Onboard 	|duration5 |count=1
-resting14
-Hoarders
-|success lend |video=The Notebook 	|status=Noah 	|start time=7 	|duration=7 |count=1
-resting 13
-Hoarders
-|success lend |video=Titanic 	|status=Liam 	|start time=7 	|duration=7 |count=1
+Regular
+|success lend |video=La La Land 	|status=Jackson 	|start time=3 	|duration=5 |count=1
 resting 12
-----------------Day8 start-------------
-Olivia Emma
-Olivia Liam
-Olivia Olivia
-{'person': 'Olivia', 'video': 'Hypnotic', 'rental_day': 4, 'cost': 20}
+Regular
+|success lend |video=Hypnotic 	|status=Sophia 	|start time=3 	|duration=4 |count=1
+resting 11
+Regular
+|success lend |video=The Mother 	|status=Sophia 	|start time=3 	|duration=3 |count=2
+resting 10
+----------------Day4 start-------------
+{'person': 'Olivia', 'video': 'Titanic', 'rental_day': 3, 'cost': 6}
+|success return |video=Titanic 	|status=Onboard 	|duration3 |count=1
+resting11
+----------------Day5 start-------------
+Regular
+|success lend |video=The Conjuring 	|status=Emma 	|start time=5 	|duration=5 |count=1
+resting 10
+Breezy
+|success lend |video=Get Out 	|status=Liam 	|start time=5 	|duration=2 |count=1
+resting 9
+----------------Day6 start-------------
+{'person': 'Sophia', 'video': 'The Mother', 'rental_day': 3, 'cost': 15}
+|success return |video=The Mother 	|status=Onboard 	|duration3 |count=1
+resting10
+Breezy
+|success lend |video=The Shawshank Redemption 	|status=Ava 	|start time=6 	|duration=1 |count=1
+resting 9
+Hoarders
+|success lend |video=The Mother 	|status=Isabella 	|start time=6 	|duration=7 |count=2
+resting 8
+----------------Day7 start-------------
+{'person': 'Olivia', 'video': 'Anchorman', 'rental_day': 5, 'cost': 10}
+|success return |video=Anchorman 	|status=Onboard 	|duration5 |count=0
+resting9
+{'person': 'Liam', 'video': 'Get Out', 'rental_day': 2, 'cost': 8}
+|success return |video=Get Out 	|status=Onboard 	|duration2 |count=0
+resting10
+{'person': 'Ava', 'video': 'The Shawshank Redemption', 'rental_day': 1, 'cost': 4}
+|success return |video=The Shawshank Redemption 	|status=Onboard 	|duration1 |count=0
+resting11
+{'person': 'Mia', 'video': 'Forrest Gump', 'rental_day': 5, 'cost': 20}
+|success return |video=Forrest Gump 	|status=Onboard 	|duration5 |count=0
+resting12
+{'person': 'Sophia', 'video': 'Hypnotic', 'rental_day': 4, 'cost': 20}
 |success return |video=Hypnotic 	|status=Onboard 	|duration4 |count=0
 resting13
-Hoarders
-|success lend |video=The Exorcist 	|status=Emma 	|start time=8 	|duration=7 |count=2
-resting 12
-----------------Day9 start-------------
-Aiden Emma
-Aiden Liam
-Aiden Olivia
-Aiden Noah
-Aiden Ava
-Aiden Sophia
-Aiden Jackson
-Aiden Isabella
-Aiden Aiden
-{'person': 'Aiden', 'video': 'A star is Born', 'rental_day': 5, 'cost': 20}
-|success return |video=A star is Born 	|status=Onboard 	|duration5 |count=0
-resting13
-Hoarders
-|success lend |video=A star is Born 	|status=Isabella 	|start time=9 	|duration=7 |count=1
-resting 12
-----------------Day10 start-------------
-Sophia Emma
-Sophia Liam
-Sophia Olivia
-Sophia Noah
-Sophia Ava
-Sophia Sophia
-{'person': 'Sophia', 'video': 'The Shawshank Redemption', 'rental_day': 7, 'cost': 28}
-|success return |video=The Shawshank Redemption 	|status=Onboard 	|duration7 |count=2
-resting13
-Breezy
-|success lend |video=The Shawshank Redemption 	|status=Ava 	|start time=10 	|duration=2 |count=1
-resting 12
-----------------Day11 start-------------
-----------------Day12 start-------------
-Ava Emma
-Ava Liam
-Ava Olivia
-Ava Noah
-Ava Ava
-{'person': 'Ava', 'video': 'The Shawshank Redemption', 'rental_day': 2, 'cost': 8}
-|success return |video=The Shawshank Redemption 	|status=Onboard 	|duration2 |count=0
-resting13
 Regular
-|success lend |video=The Conjuring 	|status=Olivia 	|start time=12 	|duration=3 |count=1
+|success lend |video=The Notebook 	|status=Mia 	|start time=7 	|duration=4 |count=1
 resting 12
-----------------Day13 start-------------
-Emma Emma
-{'person': 'Emma', 'video': 'Love Actually', 'rental_day': 7, 'cost': 14}
-|success return |video=Love Actually 	|status=Onboard 	|duration7 |count=1
-resting13
-Sophia Emma
-Sophia Liam
-Sophia Olivia
-Sophia Noah
-Sophia Ava
-Sophia Sophia
-{'person': 'Sophia', 'video': 'La La Land', 'rental_day': 7, 'cost': 14}
-|success return |video=La La Land 	|status=Onboard 	|duration7 |count=1
-resting14
-Sophia Emma
-Sophia Liam
-Sophia Olivia
-Sophia Noah
-Sophia Ava
-Sophia Sophia
-{'person': 'Sophia', 'video': 'The shining', 'rental_day': 7, 'cost': 28}
-|success return |video=The shining 	|status=Onboard 	|duration7 |count=0
-resting15
-Hoarders
-|success lend |video=La La Land 	|status=Liam 	|start time=13 	|duration=7 |count=2
-resting 14
-----------------Day14 start-------------
-Noah Emma
-Noah Liam
-Noah Olivia
-Noah Noah
-{'person': 'Noah', 'video': 'The Notebook', 'rental_day': 7, 'cost': 14}
-|success return |video=The Notebook 	|status=Onboard 	|duration7 |count=0
-resting15
-Liam Emma
-Liam Liam
-{'person': 'Liam', 'video': 'Titanic', 'rental_day': 7, 'cost': 14}
-|success return |video=Titanic 	|status=Onboard 	|duration7 |count=1
-resting16
-Hoarders
-|success lend |video=Anchorman 	|status=Emma 	|start time=14 	|duration=7 |count=2
-resting 15
 Regular
-|success lend |video=Forrest Gump 	|status=Aiden 	|start time=14 	|duration=5 |count=1
-resting 14
-Breezy
-|success lend |video=BlackBerry 	|status=Ava 	|start time=14 	|duration=1 |count=1
-resting 13
-----------------Day15 start-------------
-Emma Emma
-{'person': 'Emma', 'video': 'The Exorcist', 'rental_day': 7, 'cost': 28}
+|success lend |video=Superbad 	|status=Jackson 	|start time=7 	|duration=5 |count=2
+resting 11
+----------------Day8 start-------------
+{'person': 'Jackson', 'video': 'La La Land', 'rental_day': 5, 'cost': 10}
+|success return |video=La La Land 	|status=Onboard 	|duration5 |count=1
+resting12
+{'person': 'Noah', 'video': 'The Hangover', 'rental_day': 7, 'cost': 14}
+|success return |video=The Hangover 	|status=Onboard 	|duration7 |count=2
+resting13
+{'person': 'Isabella', 'video': 'The Exorcist', 'rental_day': 7, 'cost': 28}
 |success return |video=The Exorcist 	|status=Onboard 	|duration7 |count=1
 resting14
-Olivia Emma
-Olivia Liam
-Olivia Olivia
-{'person': 'Olivia', 'video': 'The Conjuring', 'rental_day': 3, 'cost': 12}
-|success return |video=The Conjuring 	|status=Onboard 	|duration3 |count=0
+{'person': 'Noah', 'video': 'The Godfather', 'rental_day': 7, 'cost': 28}
+|success return |video=The Godfather 	|status=Onboard 	|duration7 |count=1
 resting15
-Ava Emma
-Ava Liam
-Ava Olivia
-Ava Noah
-Ava Ava
-{'person': 'Ava', 'video': 'BlackBerry', 'rental_day': 1, 'cost': 5}
-|success return |video=BlackBerry 	|status=Onboard 	|duration1 |count=0
-resting16
-Regular
-|success lend |video=The Shawshank Redemption 	|status=Olivia 	|start time=15 	|duration=5 |count=1
-resting 15
-Breezy
-|success lend |video=The Godfather 	|status=Jackson 	|start time=15 	|duration=2 |count=1
+Hoarders
+|success lend |video=The Shawshank Redemption 	|status=Noah 	|start time=8 	|duration=7 |count=2
 resting 14
 Breezy
-|success lend |video=The Mother 	|status=Mia 	|start time=15 	|duration=2 |count=1
+|success lend |video=Anchorman 	|status=Ava 	|start time=8 	|duration=2 |count=1
 resting 13
-----------------Day16 start-------------
-Isabella Emma
-Isabella Liam
-Isabella Olivia
-Isabella Noah
-Isabella Ava
-Isabella Sophia
-Isabella Jackson
-Isabella Isabella
-{'person': 'Isabella', 'video': 'A star is Born', 'rental_day': 7, 'cost': 28}
-|success return |video=A star is Born 	|status=Onboard 	|duration7 |count=0
-resting14
-Hoarders
-|success lend |video=Mercy 	|status=Noah 	|start time=16 	|duration=7 |count=1
-resting 13
-Breezy
-|success lend |video=Titanic 	|status=Ava 	|start time=16 	|duration=1 |count=1
+Regular
+|success lend |video=Love Actually 	|status=Olivia 	|start time=8 	|duration=3 |count=1
 resting 12
-----------------Day17 start-------------
-Ava Emma
-Ava Liam
-Ava Olivia
-Ava Noah
-Ava Ava
-{'person': 'Ava', 'video': 'Titanic', 'rental_day': 1, 'cost': 2}
-|success return |video=Titanic 	|status=Onboard 	|duration1 |count=0
-resting13
-Jackson Emma
-Jackson Liam
-Jackson Olivia
-Jackson Noah
-Jackson Ava
-Jackson Sophia
-Jackson Jackson
-{'person': 'Jackson', 'video': 'The Godfather', 'rental_day': 2, 'cost': 8}
-|success return |video=The Godfather 	|status=Onboard 	|duration2 |count=0
-resting14
-Mia Emma
-Mia Liam
-Mia Olivia
-Mia Noah
-Mia Ava
-Mia Sophia
-Mia Jackson
-Mia Isabella
-Mia Aiden
-Mia Mia
-{'person': 'Mia', 'video': 'The Mother', 'rental_day': 2, 'cost': 10}
-|success return |video=The Mother 	|status=Onboard 	|duration2 |count=0
-resting15
 Breezy
-|success lend |video=The Godfather 	|status=Jackson 	|start time=17 	|duration=2 |count=1
-resting 14
-----------------Day18 start-------------
-Regular
-|success lend |video=The Mother 	|status=Aiden 	|start time=18 	|duration=5 |count=2
-resting 13
-Regular
-|success lend |video=The Notebook 	|status=Olivia 	|start time=18 	|duration=3 |count=2
-resting 12
-----------------Day19 start-------------
-Aiden Emma
-Aiden Liam
-Aiden Olivia
-Aiden Noah
-Aiden Ava
-Aiden Sophia
-Aiden Jackson
-Aiden Isabella
-Aiden Aiden
-{'person': 'Aiden', 'video': 'Forrest Gump', 'rental_day': 5, 'cost': 20}
-|success return |video=Forrest Gump 	|status=Onboard 	|duration5 |count=1
-resting13
-Jackson Emma
-Jackson Liam
-Jackson Olivia
-Jackson Noah
-Jackson Ava
-Jackson Sophia
-Jackson Jackson
-{'person': 'Jackson', 'video': 'The Godfather', 'rental_day': 2, 'cost': 8}
-|success return |video=The Godfather 	|status=Onboard 	|duration2 |count=0
-resting14
-Breezy
-|success lend |video=The Exorcist 	|status=Ava 	|start time=19 	|duration=1 |count=1
-resting 13
-----------------Day20 start-------------
-Liam Emma
-Liam Liam
-{'person': 'Liam', 'video': 'La La Land', 'rental_day': 7, 'cost': 14}
-|success return |video=La La Land 	|status=Onboard 	|duration7 |count=0
-resting14
-Ava Emma
-Ava Liam
-Ava Olivia
-Ava Noah
-Ava Ava
-{'person': 'Ava', 'video': 'The Exorcist', 'rental_day': 1, 'cost': 4}
-|success return |video=The Exorcist 	|status=Onboard 	|duration1 |count=0
-resting15
-Olivia Emma
-Olivia Liam
-Olivia Olivia
-{'person': 'Olivia', 'video': 'The Shawshank Redemption', 'rental_day': 5, 'cost': 20}
-|success return |video=The Shawshank Redemption 	|status=Onboard 	|duration5 |count=1
-resting16
-----------------Day21 start-------------
-Olivia Emma
-Olivia Liam
-Olivia Olivia
-{'person': 'Olivia', 'video': 'The Notebook', 'rental_day': 3, 'cost': 6}
-|success return |video=The Notebook 	|status=Onboard 	|duration3 |count=0
-resting17
-Emma Emma
-{'person': 'Emma', 'video': 'Anchorman', 'rental_day': 7, 'cost': 14}
-|success return |video=Anchorman 	|status=Onboard 	|duration7 |count=0
-resting18
-Breezy
-|success lend |video=BlackBerry 	|status=Jackson 	|start time=21 	|duration=1 |count=1
-resting 17
-Hoarders
-|success lend |video=A star is Born 	|status=Noah 	|start time=21 	|duration=7 |count=2
-resting 16
-Hoarders
-|success lend |video=Love Actually 	|status=Liam 	|start time=21 	|duration=7 |count=1
-resting 15
-Hoarders
-|success lend |video=The Shawshank Redemption 	|status=Sophia 	|start time=21 	|duration=7 |count=1
-resting 14
-Regular
-|success lend |video=Forrest Gump 	|status=Aiden 	|start time=21 	|duration=3 |count=2
-resting 13
-Regular
-|success lend |video=The Notebook 	|status=Aiden 	|start time=21 	|duration=5 |count=3
-resting 12
-----------------Day22 start-------------
-Jackson Emma
-Jackson Liam
-Jackson Olivia
-Jackson Noah
-Jackson Ava
-Jackson Sophia
-Jackson Jackson
-{'person': 'Jackson', 'video': 'BlackBerry', 'rental_day': 1, 'cost': 5}
-|success return |video=BlackBerry 	|status=Onboard 	|duration1 |count=0
-resting13
-Hoarders
-|success lend |video=Bridesmaids 	|status=Sophia 	|start time=22 	|duration=7 |count=2
-resting 12
-----------------Day23 start-------------
-Aiden Emma
-Aiden Liam
-Aiden Olivia
-Aiden Noah
-Aiden Ava
-Aiden Sophia
-Aiden Jackson
-Aiden Isabella
-Aiden Aiden
-{'person': 'Aiden', 'video': 'The Mother', 'rental_day': 5, 'cost': 25}
-|success return |video=The Mother 	|status=Onboard 	|duration5 |count=2
-resting13
-Noah Emma
-Noah Liam
-Noah Olivia
-Noah Noah
-{'person': 'Noah', 'video': 'Mercy', 'rental_day': 7, 'cost': 35}
-|success return |video=Mercy 	|status=Onboard 	|duration7 |count=1
-resting14
-----------------Day24 start-------------
-Aiden Emma
-Aiden Liam
-Aiden Olivia
-Aiden Noah
-Aiden Ava
-Aiden Sophia
-Aiden Jackson
-Aiden Isabella
-Aiden Aiden
-{'person': 'Aiden', 'video': 'Forrest Gump', 'rental_day': 3, 'cost': 12}
-|success return |video=Forrest Gump 	|status=Onboard 	|duration3 |count=1
-resting15
-Breezy
-|success lend |video=Get Out 	|status=Mia 	|start time=24 	|duration=1 |count=1
-resting 14
-Breezy
-|success lend |video=Hypnotic 	|status=Ava 	|start time=24 	|duration=1 |count=1
-resting 13
-----------------Day25 start-------------
-Mia Emma
-Mia Liam
-Mia Olivia
-Mia Noah
-Mia Ava
-Mia Sophia
-Mia Jackson
-Mia Isabella
-Mia Aiden
-Mia Mia
-{'person': 'Mia', 'video': 'Get Out', 'rental_day': 1, 'cost': 4}
-|success return |video=Get Out 	|status=Onboard 	|duration1 |count=0
-resting14
-Ava Emma
-Ava Liam
-Ava Olivia
-Ava Noah
-Ava Ava
-{'person': 'Ava', 'video': 'Hypnotic', 'rental_day': 1, 'cost': 5}
-|success return |video=Hypnotic 	|status=Onboard 	|duration1 |count=0
-resting15
-Hoarders
-|success lend |video=The Conjuring 	|status=Sophia 	|start time=25 	|duration=7 |count=3
-resting 14
-----------------Day26 start-------------
-Aiden Emma
-Aiden Liam
-Aiden Olivia
-Aiden Noah
-Aiden Ava
-Aiden Sophia
-Aiden Jackson
-Aiden Isabella
-Aiden Aiden
-{'person': 'Aiden', 'video': 'The Notebook', 'rental_day': 5, 'cost': 10}
-|success return |video=The Notebook 	|status=Onboard 	|duration5 |count=0
-resting15
-----------------Day27 start-------------
-----------------Day28 start-------------
-Liam Emma
-Liam Liam
-{'person': 'Liam', 'video': 'Love Actually', 'rental_day': 7, 'cost': 14}
-|success return |video=Love Actually 	|status=Onboard 	|duration7 |count=0
-resting16
-Sophia Emma
-Sophia Liam
-Sophia Olivia
-Sophia Noah
-Sophia Ava
-Sophia Sophia
-{'person': 'Sophia', 'video': 'The Shawshank Redemption', 'rental_day': 7, 'cost': 28}
-|success return |video=The Shawshank Redemption 	|status=Onboard 	|duration7 |count=2
-resting17
-Noah Emma
-Noah Liam
-Noah Olivia
-Noah Noah
-{'person': 'Noah', 'video': 'A star is Born', 'rental_day': 7, 'cost': 28}
-|success return |video=A star is Born 	|status=Onboard 	|duration7 |count=0
-resting18
-Regular
-|success lend |video=Get Out 	|status=Olivia 	|start time=28 	|duration=5 |count=1
-resting 17
-Hoarders
-|success lend |video=The shining 	|status=Isabella 	|start time=28 	|duration=7 |count=1
-resting 16
-----------------Day29 start-------------
-Sophia Emma
-Sophia Liam
-Sophia Olivia
-Sophia Noah
-Sophia Ava
-Sophia Sophia
-{'person': 'Sophia', 'video': 'Bridesmaids', 'rental_day': 7, 'cost': 14}
-|success return |video=Bridesmaids 	|status=Onboard 	|duration7 |count=1
-resting17
-Hoarders
-|success lend |video=Mercy 	|status=Liam 	|start time=29 	|duration=7 |count=1
-resting 16
-Hoarders
-|success lend |video=A star is Born 	|status=Liam 	|start time=29 	|duration=7 |count=2
-resting 15
-----------------Day30 start-------------
-Hoarders
-|success lend |video=BlackBerry 	|status=Emma 	|start time=30 	|duration=7 |count=1
-resting 14
-Regular
-|success lend |video=Hypnotic 	|status=Olivia 	|start time=30 	|duration=5 |count=2
-resting 13
-Hoarders
-|success lend |video=La La Land 	|status=Noah 	|start time=30 	|duration=7 |count=1
-resting 12
-----------------Day31 start-------------
-Breezy
-|success lend |video=Anchorman 	|status=Ava 	|start time=31 	|duration=2 |count=1
+|success lend |video=Titanic 	|status=Aiden 	|start time=8 	|duration=2 |count=1
 resting 11
-----------------Day32 start-------------
-Sophia Emma
-Sophia Liam
-Sophia Olivia
-Sophia Noah
-Sophia Ava
-Sophia Sophia
-{'person': 'Sophia', 'video': 'The Conjuring', 'rental_day': 7, 'cost': 28}
-|success return |video=The Conjuring 	|status=Onboard 	|duration7 |count=0
+----------------Day9 start-------------
+{'person': 'Noah', 'video': 'BlackBerry', 'rental_day': 7, 'cost': 35}
+|success return |video=BlackBerry 	|status=Onboard 	|duration7 |count=1
 resting12
-Hoarders
-|success lend |video=The Exorcist 	|status=Isabella 	|start time=32 	|duration=7 |count=2
+Regular
+|success lend |video=BlackBerry 	|status=Emma 	|start time=9 	|duration=5 |count=2
 resting 11
-Hoarders
-|success lend |video=The Hangover 	|status=Emma 	|start time=32 	|duration=7 |count=2
+Regular
+|success lend |video=The Hangover 	|status=Mia 	|start time=9 	|duration=4 |count=2
 resting 10
-----------------Day33 start-------------
-Ava Emma
-Ava Liam
-Ava Olivia
-Ava Noah
-Ava Ava
+----------------Day10 start-------------
+{'person': 'Aiden', 'video': 'Titanic', 'rental_day': 2, 'cost': 4}
+|success return |video=Titanic 	|status=Onboard 	|duration2 |count=0
+resting11
 {'person': 'Ava', 'video': 'Anchorman', 'rental_day': 2, 'cost': 4}
 |success return |video=Anchorman 	|status=Onboard 	|duration2 |count=0
-resting11
-Olivia Emma
-Olivia Liam
-Olivia Olivia
-{'person': 'Olivia', 'video': 'Get Out', 'rental_day': 5, 'cost': 20}
-|success return |video=Get Out 	|status=Onboard 	|duration5 |count=1
 resting12
-----------------Day34 start-------------
+{'person': 'Emma', 'video': 'The Conjuring', 'rental_day': 5, 'cost': 20}
+|success return |video=The Conjuring 	|status=Onboard 	|duration5 |count=1
+resting13
 Hoarders
-|success lend |video=The Conjuring 	|status=Emma 	|start time=34 	|duration=7 |count=3
+|success lend |video=Get Out 	|status=Isabella 	|start time=10 	|duration=7 |count=2
+resting 12
+Regular
+|success lend |video=Bridesmaids 	|status=Olivia 	|start time=10 	|duration=4 |count=2
 resting 11
 Breezy
-|success lend |video=The Shawshank Redemption 	|status=Jackson 	|start time=34 	|duration=1 |count=1
+|success lend |video=The Godfather 	|status=Ava 	|start time=10 	|duration=1 |count=1
 resting 10
-----------------Day35 start-------------
-change duration to 5
-{'person': 'Noah', 'video': 'La La Land', 'rental_day': 7, 'cost': 10}
-|success return |video=La La Land 	|status=Onboard 	|duration7 |count=0
-resting 11
-change duration to 3
-{'person': 'Emma', 'video': 'The Hangover', 'rental_day': 7, 'cost': 6}
-|success return |video=The Hangover 	|status=Onboard 	|duration7 |count=2
+Breezy
+|success lend |video=Forrest Gump 	|status=Ava 	|start time=10 	|duration=1 |count=2
+resting 9
+----------------Day11 start-------------
+{'person': 'Mia', 'video': 'The Notebook', 'rental_day': 4, 'cost': 8}
+|success return |video=The Notebook 	|status=Onboard 	|duration4 |count=1
+resting10
+{'person': 'Olivia', 'video': 'Love Actually', 'rental_day': 3, 'cost': 6}
+|success return |video=Love Actually 	|status=Onboard 	|duration3 |count=1
+resting11
+{'person': 'Ava', 'video': 'Forrest Gump', 'rental_day': 1, 'cost': 4}
+|success return |video=Forrest Gump 	|status=Onboard 	|duration1 |count=1
+resting12
+{'person': 'Ava', 'video': 'The Godfather', 'rental_day': 1, 'cost': 4}
+|success return |video=The Godfather 	|status=Onboard 	|duration1 |count=0
+resting13
+Breezy
+|success lend |video=The Exorcist 	|status=Aiden 	|start time=11 	|duration=2 |count=1
 resting 12
-change duration to 3
-{'person': 'Isabella', 'video': 'The Exorcist', 'rental_day': 7, 'cost': 12}
-|success return |video=The Exorcist 	|status=Onboard 	|duration7 |count=1
-resting 13
-{'person': 'Isabella', 'video': 'The shining', 'rental_day': 7, 'cost': 28}
-|success return |video=The shining 	|status=Onboard 	|duration7 |count=0
+Hoarders
+|success lend |video=The shining 	|status=Noah 	|start time=11 	|duration=7 |count=2
+resting 11
+----------------Day12 start-------------
+{'person': 'Jackson', 'video': 'Superbad', 'rental_day': 5, 'cost': 10}
+|success return |video=Superbad 	|status=Onboard 	|duration5 |count=0
+resting12
+Hoarders
+|success lend |video=Superbad 	|status=Isabella 	|start time=12 	|duration=7 |count=3
+resting 11
+Breezy
+|success lend |video=Hypnotic 	|status=Aiden 	|start time=12 	|duration=2 |count=2
+resting 10
+----------------Day13 start-------------
+{'person': 'Mia', 'video': 'The Hangover', 'rental_day': 4, 'cost': 8}
+|success return |video=The Hangover 	|status=Onboard 	|duration4 |count=0
+resting11
+{'person': 'Aiden', 'video': 'The Exorcist', 'rental_day': 2, 'cost': 8}
+|success return |video=The Exorcist 	|status=Onboard 	|duration2 |count=1
+resting12
+{'person': 'Isabella', 'video': 'The Mother', 'rental_day': 7, 'cost': 35}
+|success return |video=The Mother 	|status=Onboard 	|duration7 |count=2
+resting13
+Breezy
+|success lend |video=A star is Born 	|status=Ava 	|start time=13 	|duration=2 |count=1
+resting 12
+Breezy
+|success lend |video=Anchorman 	|status=Aiden 	|start time=13 	|duration=2 |count=2
+resting 11
+Regular
+|success lend |video=The Godfather 	|status=Olivia 	|start time=13 	|duration=3 |count=2
+resting 10
+----------------Day14 start-------------
+{'person': 'Olivia', 'video': 'Bridesmaids', 'rental_day': 4, 'cost': 8}
+|success return |video=Bridesmaids 	|status=Onboard 	|duration4 |count=1
+resting11
+{'person': 'Emma', 'video': 'BlackBerry', 'rental_day': 5, 'cost': 25}
+|success return |video=BlackBerry 	|status=Onboard 	|duration5 |count=0
+resting12
+{'person': 'Aiden', 'video': 'Hypnotic', 'rental_day': 2, 'cost': 10}
+|success return |video=Hypnotic 	|status=Onboard 	|duration2 |count=1
+resting13
+Breezy
+|success lend |video=BlackBerry 	|status=Ava 	|start time=14 	|duration=2 |count=2
+resting 12
+----------------Day15 start-------------
+{'person': 'Aiden', 'video': 'Anchorman', 'rental_day': 2, 'cost': 4}
+|success return |video=Anchorman 	|status=Onboard 	|duration2 |count=0
+resting13
+{'person': 'Noah', 'video': 'The Shawshank Redemption', 'rental_day': 7, 'cost': 28}
+|success return |video=The Shawshank Redemption 	|status=Onboard 	|duration7 |count=1
+resting14
+{'person': 'Ava', 'video': 'A star is Born', 'rental_day': 2, 'cost': 8}
+|success return |video=A star is Born 	|status=Onboard 	|duration2 |count=1
+resting15
+Regular
+|success lend |video=Bridesmaids 	|status=Jackson 	|start time=15 	|duration=5 |count=1
 resting 14
-change duration to 1
-{'person': 'Emma', 'video': 'The Conjuring', 'rental_day': 7, 'cost': 4}
-|success return |video=The Conjuring 	|status=Onboard 	|duration7 |count=1
+Breezy
+|success lend |video=La La Land 	|status=Liam 	|start time=15 	|duration=2 |count=1
+resting 13
+Regular
+|success lend |video=The Notebook 	|status=Emma 	|start time=15 	|duration=5 |count=1
+resting 12
+Regular
+|success lend |video=The Mother 	|status=Emma 	|start time=15 	|duration=5 |count=2
+resting 11
+Breezy
+|success lend |video=Hypnotic 	|status=Ava 	|start time=15 	|duration=2 |count=2
+resting 10
+----------------Day16 start-------------
+{'person': 'Olivia', 'video': 'The Godfather', 'rental_day': 3, 'cost': 12}
+|success return |video=The Godfather 	|status=Onboard 	|duration3 |count=0
+resting11
+{'person': 'Ava', 'video': 'BlackBerry', 'rental_day': 2, 'cost': 10}
+|success return |video=BlackBerry 	|status=Onboard 	|duration2 |count=1
+resting12
+Regular
+|success lend |video=The Conjuring 	|status=Sophia 	|start time=16 	|duration=4 |count=1
+resting 11
+Hoarders
+|success lend |video=The Exorcist 	|status=Noah 	|start time=16 	|duration=7 |count=2
+resting 10
+Hoarders
+|success lend |video=Forrest Gump 	|status=Noah 	|start time=16 	|duration=7 |count=3
+resting 9
+----------------Day17 start-------------
+{'person': 'Liam', 'video': 'La La Land', 'rental_day': 2, 'cost': 4}
+|success return |video=La La Land 	|status=Onboard 	|duration2 |count=0
+resting10
+{'person': 'Isabella', 'video': 'Get Out', 'rental_day': 7, 'cost': 28}
+|success return |video=Get Out 	|status=Onboard 	|duration7 |count=1
+resting11
+{'person': 'Ava', 'video': 'Hypnotic', 'rental_day': 2, 'cost': 10}
+|success return |video=Hypnotic 	|status=Onboard 	|duration2 |count=0
+resting12
+Regular
+|success lend |video=Titanic 	|status=Mia 	|start time=17 	|duration=5 |count=1
+resting 11
+Hoarders
+|success lend |video=A star is Born 	|status=Isabella 	|start time=17 	|duration=7 |count=2
+resting 10
+----------------Day18 start-------------
+{'person': 'Noah', 'video': 'The shining', 'rental_day': 7, 'cost': 28}
+|success return |video=The shining 	|status=Onboard 	|duration7 |count=2
+resting11
+Regular
+|success lend |video=The Shawshank Redemption 	|status=Mia 	|start time=18 	|duration=5 |count=2
+resting 10
+----------------Day19 start-------------
+{'person': 'Isabella', 'video': 'Superbad', 'rental_day': 7, 'cost': 14}
+|success return |video=Superbad 	|status=Onboard 	|duration7 |count=1
+resting11
+Regular
+|success lend |video=Love Actually 	|status=Emma 	|start time=19 	|duration=3 |count=3
+resting 10
+----------------Day20 start-------------
+{'person': 'Emma', 'video': 'The Notebook', 'rental_day': 5, 'cost': 10}
+|success return |video=The Notebook 	|status=Onboard 	|duration5 |count=2
+resting11
+{'person': 'Jackson', 'video': 'Bridesmaids', 'rental_day': 5, 'cost': 10}
+|success return |video=Bridesmaids 	|status=Onboard 	|duration5 |count=0
+resting12
+{'person': 'Sophia', 'video': 'The Conjuring', 'rental_day': 4, 'cost': 16}
+|success return |video=The Conjuring 	|status=Onboard 	|duration4 |count=0
+resting13
+{'person': 'Emma', 'video': 'The Mother', 'rental_day': 5, 'cost': 25}
+|success return |video=The Mother 	|status=Onboard 	|duration5 |count=1
+resting14
+----------------Day21 start-------------
+Hoarders
+|success lend |video=The shining 	|status=Noah 	|start time=21 	|duration=7 |count=3
+resting 13
+Regular
+|success lend |video=Anchorman 	|status=Emma 	|start time=21 	|duration=5 |count=2
+resting 12
+----------------Day22 start-------------
+{'person': 'Mia', 'video': 'Titanic', 'rental_day': 5, 'cost': 10}
+|success return |video=Titanic 	|status=Onboard 	|duration5 |count=1
+resting13
+{'person': 'Emma', 'video': 'Love Actually', 'rental_day': 3, 'cost': 6}
+|success return |video=Love Actually 	|status=Onboard 	|duration3 |count=1
+resting14
+Regular
+|success lend |video=Love Actually 	|status=Emma 	|start time=22 	|duration=5 |count=2
+resting 13
+----------------Day23 start-------------
+{'person': 'Noah', 'video': 'The Exorcist', 'rental_day': 7, 'cost': 28}
+|success return |video=The Exorcist 	|status=Onboard 	|duration7 |count=2
+resting14
+{'person': 'Mia', 'video': 'The Shawshank Redemption', 'rental_day': 5, 'cost': 20}
+|success return |video=The Shawshank Redemption 	|status=Onboard 	|duration5 |count=0
+resting15
+{'person': 'Noah', 'video': 'Forrest Gump', 'rental_day': 7, 'cost': 28}
+|success return |video=Forrest Gump 	|status=Onboard 	|duration7 |count=1
+resting16
+Regular
+|success lend |video=The Godfather 	|status=Jackson 	|start time=23 	|duration=5 |count=1
 resting 15
-{'person': 'Jackson', 'video': 'The Shawshank Redemption', 'rental_day': 1, 'cost': 4}
-|success return |video=The Shawshank Redemption 	|status=Onboard 	|duration1 |count=0
-resting 16
-change duration to 6
-{'person': 'Liam', 'video': 'A star is Born', 'rental_day': 7, 'cost': 24}
-|success return |video=A star is Born 	|status=Onboard 	|duration7 |count=1
-resting 17
+----------------Day24 start-------------
+{'person': 'Isabella', 'video': 'A star is Born', 'rental_day': 7, 'cost': 28}
+|success return |video=A star is Born 	|status=Onboard 	|duration7 |count=0
+resting16
+Hoarders
+|success lend |video=The Hangover 	|status=Noah 	|start time=24 	|duration=7 |count=2
+resting 15
+Breezy
+|success lend |video=BlackBerry 	|status=Liam 	|start time=24 	|duration=1 |count=1
+resting 14
+Regular
+|success lend |video=The Shawshank Redemption 	|status=Mia 	|start time=24 	|duration=3 |count=1
+resting 13
+Regular
+|success lend |video=Titanic 	|status=Mia 	|start time=24 	|duration=5 |count=2
+resting 12
+----------------Day25 start-------------
+{'person': 'Liam', 'video': 'BlackBerry', 'rental_day': 1, 'cost': 5}
+|success return |video=BlackBerry 	|status=Onboard 	|duration1 |count=0
+resting13
+Breezy
+|success lend |video=Hypnotic 	|status=Ava 	|start time=25 	|duration=2 |count=1
+resting 12
+Regular
+|success lend |video=The Exorcist 	|status=Jackson 	|start time=25 	|duration=3 |count=2
+resting 11
+----------------Day26 start-------------
+{'person': 'Emma', 'video': 'Anchorman', 'rental_day': 5, 'cost': 10}
+|success return |video=Anchorman 	|status=Onboard 	|duration5 |count=1
+resting12
+----------------Day27 start-------------
+{'person': 'Emma', 'video': 'Love Actually', 'rental_day': 5, 'cost': 10}
+|success return |video=Love Actually 	|status=Onboard 	|duration5 |count=0
+resting13
+{'person': 'Mia', 'video': 'The Shawshank Redemption', 'rental_day': 3, 'cost': 12}
+|success return |video=The Shawshank Redemption 	|status=Onboard 	|duration3 |count=1
+resting14
+{'person': 'Ava', 'video': 'Hypnotic', 'rental_day': 2, 'cost': 10}
+|success return |video=Hypnotic 	|status=Onboard 	|duration2 |count=0
+resting15
+Breezy
+|success lend |video=Anchorman 	|status=Aiden 	|start time=27 	|duration=2 |count=1
+resting 14
+Regular
+|success lend |video=The Conjuring 	|status=Mia 	|start time=27 	|duration=4 |count=2
+resting 13
+----------------Day28 start-------------
+{'person': 'Jackson', 'video': 'The Exorcist', 'rental_day': 3, 'cost': 12}
+|success return |video=The Exorcist 	|status=Onboard 	|duration3 |count=1
+resting14
+{'person': 'Noah', 'video': 'The shining', 'rental_day': 7, 'cost': 28}
+|success return |video=The shining 	|status=Onboard 	|duration7 |count=1
+resting15
+{'person': 'Jackson', 'video': 'The Godfather', 'rental_day': 5, 'cost': 20}
+|success return |video=The Godfather 	|status=Onboard 	|duration5 |count=0
+resting16
+Breezy
+|success lend |video=Love Actually 	|status=Ava 	|start time=28 	|duration=1 |count=1
+resting 15
+Regular
+|success lend |video=La La Land 	|status=Olivia 	|start time=28 	|duration=4 |count=1
+resting 14
+Hoarders
+|success lend |video=Hypnotic 	|status=Isabella 	|start time=28 	|duration=7 |count=1
+resting 13
+----------------Day29 start-------------
+{'person': 'Mia', 'video': 'Titanic', 'rental_day': 5, 'cost': 10}
+|success return |video=Titanic 	|status=Onboard 	|duration5 |count=1
+resting14
+{'person': 'Ava', 'video': 'Love Actually', 'rental_day': 1, 'cost': 2}
+|success return |video=Love Actually 	|status=Onboard 	|duration1 |count=0
+resting15
+{'person': 'Aiden', 'video': 'Anchorman', 'rental_day': 2, 'cost': 4}
+|success return |video=Anchorman 	|status=Onboard 	|duration2 |count=0
+resting16
+Hoarders
+|success lend |video=Mercy 	|status=Noah 	|start time=29 	|duration=7 |count=2
+resting 15
+Breezy
+|success lend |video=Love Actually 	|status=Aiden 	|start time=29 	|duration=1 |count=1
+resting 14
+----------------Day30 start-------------
+{'person': 'Aiden', 'video': 'Love Actually', 'rental_day': 1, 'cost': 2}
+|success return |video=Love Actually 	|status=Onboard 	|duration1 |count=0
+resting15
+Regular
+|success lend |video=The Godfather 	|status=Emma 	|start time=30 	|duration=4 |count=1
+resting 14
+Breezy
+|success lend |video=Love Actually 	|status=Liam 	|start time=30 	|duration=2 |count=1
+resting 13
+Breezy
+|success lend |video=Get Out 	|status=Ava 	|start time=30 	|duration=2 |count=1
+resting 12
+Hoarders
+|success lend |video=Anchorman 	|status=Noah 	|start time=30 	|duration=7 |count=3
+resting 11
+----------------Day31 start-------------
+{'person': 'Noah', 'video': 'The Hangover', 'rental_day': 7, 'cost': 14}
+|success return |video=The Hangover 	|status=Onboard 	|duration7 |count=2
+resting12
+{'person': 'Mia', 'video': 'The Conjuring', 'rental_day': 4, 'cost': 16}
+|success return |video=The Conjuring 	|status=Onboard 	|duration4 |count=0
+resting13
+Breezy
+|success lend |video=Bridesmaids 	|status=Aiden 	|start time=31 	|duration=1 |count=1
+resting 12
+----------------Day32 start-------------
+{'person': 'Liam', 'video': 'Love Actually', 'rental_day': 2, 'cost': 4}
+|success return |video=Love Actually 	|status=Onboard 	|duration2 |count=0
+resting13
+{'person': 'Olivia', 'video': 'La La Land', 'rental_day': 4, 'cost': 8}
+|success return |video=La La Land 	|status=Onboard 	|duration4 |count=0
+resting14
+{'person': 'Aiden', 'video': 'Bridesmaids', 'rental_day': 1, 'cost': 2}
+|success return |video=Bridesmaids 	|status=Onboard 	|duration1 |count=0
+resting15
+{'person': 'Ava', 'video': 'Get Out', 'rental_day': 2, 'cost': 8}
+|success return |video=Get Out 	|status=Onboard 	|duration2 |count=0
+resting16
+Regular
+|success lend |video=The shining 	|status=Olivia 	|start time=32 	|duration=4 |count=1
+resting 15
+Regular
+|success lend |video=The Mother 	|status=Sophia 	|start time=32 	|duration=4 |count=1
+resting 14
+Hoarders
+|success lend |video=The Conjuring 	|status=Isabella 	|start time=32 	|duration=7 |count=2
+resting 13
+----------------Day33 start-------------
+Breezy
+|success lend |video=Get Out 	|status=Aiden 	|start time=33 	|duration=1 |count=1
+resting 12
+Hoarders
+|success lend |video=La La Land 	|status=Noah 	|start time=33 	|duration=7 |count=3
+resting 11
+----------------Day34 start-------------
+{'person': 'Aiden', 'video': 'Get Out', 'rental_day': 1, 'cost': 4}
+|success return |video=Get Out 	|status=Onboard 	|duration1 |count=0
+resting12
+{'person': 'Emma', 'video': 'The Godfather', 'rental_day': 4, 'cost': 16}
+|success return |video=The Godfather 	|status=Onboard 	|duration4 |count=0
+resting13
+----------------Day35 start-------------
+change duration to 2
+{'person': 'Noah', 'video': 'La La Land', 'rental_day': 7, 'cost': 4}
+|success return |video=La La Land 	|status=Onboard 	|duration7 |count=2
+resting 14
 change duration to 5
-{'person': 'Emma', 'video': 'BlackBerry', 'rental_day': 7, 'cost': 25}
-|success return |video=BlackBerry 	|status=Onboard 	|duration7 |count=0
+{'person': 'Noah', 'video': 'Anchorman', 'rental_day': 7, 'cost': 10}
+|success return |video=Anchorman 	|status=Onboard 	|duration7 |count=1
+resting 15
+change duration to 3
+{'person': 'Olivia', 'video': 'The shining', 'rental_day': 4, 'cost': 12}
+|success return |video=The shining 	|status=Onboard 	|duration4 |count=0
+resting 16
+change duration to 3
+{'person': 'Isabella', 'video': 'The Conjuring', 'rental_day': 7, 'cost': 12}
+|success return |video=The Conjuring 	|status=Onboard 	|duration7 |count=1
+resting 17
+{'person': 'Isabella', 'video': 'Hypnotic', 'rental_day': 7, 'cost': 35}
+|success return |video=Hypnotic 	|status=Onboard 	|duration7 |count=0
 resting 18
-{'person': 'Olivia', 'video': 'Hypnotic', 'rental_day': 5, 'cost': 25}
-|success return |video=Hypnotic 	|status=Onboard 	|duration5 |count=0
+change duration to 3
+{'person': 'Sophia', 'video': 'The Mother', 'rental_day': 4, 'cost': 15}
+|success return |video=The Mother 	|status=Onboard 	|duration4 |count=0
 resting 19
 change duration to 6
-{'person': 'Liam', 'video': 'Mercy', 'rental_day': 7, 'cost': 30}
+{'person': 'Noah', 'video': 'Mercy', 'rental_day': 7, 'cost': 30}
 |success return |video=Mercy 	|status=Onboard 	|duration7 |count=0
 resting 20

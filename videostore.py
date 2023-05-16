@@ -23,7 +23,7 @@ class VideoStore:
             for j in range(4):
                 if self.videos_list[i][j].duration + self.videos_list[i][j].startTime ==day:
                     for k in range(len(self.Customer_list)):
-                        print(self.videos_list[i][j].status,self.Customer_list[k].Name)
+                        #print(self.videos_list[i][j].status,self.Customer_list[k].Name)
                         if self.videos_list[i][j].status == self.Customer_list[k].Name:
                             self.Customer_list[k].ReturnVideo(video = self.videos_list[i][j], person = self.Customer_list[k], price = self.videos_list[i][j].price)
                             self.videoInventory+=1
