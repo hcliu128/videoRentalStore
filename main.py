@@ -50,6 +50,7 @@ class Main:
                 video_slot = random.randint(0,3)
                 self.store.Customer_list[n].Rentvideo(videostore=self.store,person = self.store.Customer_list[n],video = self.store.videos_list[video_type][video_slot],startTime = day,onboard = self.store.videoInventory)
                 #self.store.Customer_list[n].ReturnVideo(video = self.store.videos_list[video_type][video_slot], person = self.store.Customer_list[n], price = self.store.videos_list[video_type][video_slot].price)
+        self.store.video_in_shop(day)
 main = Main()
 main.set_customer()
 #main.show_customer()

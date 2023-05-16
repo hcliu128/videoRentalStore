@@ -5,7 +5,7 @@ class Person:
         self.Name = Name
         self.Video_Count = Video_Count
         self.Character = Character
-    
+
     def Rentvideo(self,**kwargs):
         (person, video, startTime,onboard,videostore) = (kwargs['person'], kwargs['video'], kwargs['startTime'],kwargs['onboard'],kwargs['videostore'])
         if video.status == 'Onboard' and self.Video_Count<3:
@@ -33,15 +33,15 @@ class Person:
         duration = video.duration
         if startTime + duration > 35:
             duration = 35 - startTime
-            print(f'change duration to {duration}')
+            #print(f'change duration to {duration}')
         person.Video_Count -= 1
         data['person'] = self.Name
         data['video'] = video.videoName
         data['rental_day'] = video.duration
         data['cost'] = duration * price
-        #videostore.Daily_record(data)
-        print(data)
+        videostore.VideoStore.Daily_record(data)
+        #print(data)
         print('|success return','|video='+video.videoName,'\t|status='+video.status,'\t|duration'+str(video.duration),'|count='+str(person.Video_Count))
         video.startTime = 0
         video.duration = 0        
-
+    
