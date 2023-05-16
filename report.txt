@@ -1,0 +1,189 @@
+----------------Day1 start-------------
+|success lend |video=The Hangover 	|status=Sophia 	|start time=1 	|duration=7 |count=1
+19 videos in shop: ['The Notebook', 'Titanic', 'Love Actually', 'La La Land', 'Bridesmaids', 'Superbad', 'Anchorman', 'The Exorcist', 'The shining', 'Get Out', 'The Conjuring', 'The Shawshank Redemption', 'Forrest Gump', 'The Godfather', 'A star is Born', 'BlackBerry', 'Hypnotic', 'The Mother', 'Mercy']
+----------------Day2 start-------------
+|success lend |video=The shining 	|status=Mia 	|start time=2 	|duration=7 |count=1
+|success lend |video=Love Actually 	|status=Aiden 	|start time=2 	|duration=2 |count=1
+17 videos in shop: ['The Notebook', 'Titanic', 'La La Land', 'Bridesmaids', 'Superbad', 'Anchorman', 'The Exorcist', 'Get Out', 'The Conjuring', 'The Shawshank Redemption', 'Forrest Gump', 'The Godfather', 'A star is Born', 'BlackBerry', 'Hypnotic', 'The Mother', 'Mercy']
+----------------Day3 start-------------
+17 videos in shop: ['The Notebook', 'Titanic', 'La La Land', 'Bridesmaids', 'Superbad', 'Anchorman', 'The Exorcist', 'Get Out', 'The Conjuring', 'The Shawshank Redemption', 'Forrest Gump', 'The Godfather', 'A star is Born', 'BlackBerry', 'Hypnotic', 'The Mother', 'Mercy']
+----------------Day4 start-------------
+|success return |video=Love Actually 	|status=Onboard 	|duration2 |count=0 |cost=4
+|success lend |video=The Conjuring 	|status=Sophia 	|start time=4 	|duration=7 |count=2
+|success lend |video=Bridesmaids 	|status=Olivia 	|start time=4 	|duration=2 |count=1
+|success lend |video=La La Land 	|status=Mia 	|start time=4 	|duration=7 |count=2
+15 videos in shop: ['The Notebook', 'Titanic', 'Love Actually', 'Superbad', 'Anchorman', 'The Exorcist', 'Get Out', 'The Shawshank Redemption', 'Forrest Gump', 'The Godfather', 'A star is Born', 'BlackBerry', 'Hypnotic', 'The Mother', 'Mercy']
+----------------Day5 start-------------
+|success lend |video=The Godfather 	|status=Olivia 	|start time=5 	|duration=1 |count=2
+|success lend |video=Superbad 	|status=Noah 	|start time=5 	|duration=7 |count=1
+|success lend |video=A star is Born 	|status=Liam 	|start time=5 	|duration=7 |count=1
+|success lend |video=Love Actually 	|status=Noah 	|start time=5 	|duration=7 |count=2
+11 videos in shop: ['The Notebook', 'Titanic', 'Anchorman', 'The Exorcist', 'Get Out', 'The Shawshank Redemption', 'Forrest Gump', 'BlackBerry', 'Hypnotic', 'The Mother', 'Mercy']
+----------------Day6 start-------------
+|success return |video=Bridesmaids 	|status=Onboard 	|duration2 |count=1 |cost=4
+|success return |video=The Godfather 	|status=Onboard 	|duration1 |count=0 |cost=4
+|success lend |video=Titanic 	|status=Isabella 	|start time=6 	|duration=7 |count=1
+|success lend |video=The Mother 	|status=Isabella 	|start time=6 	|duration=7 |count=2
+11 videos in shop: ['The Notebook', 'Bridesmaids', 'Anchorman', 'The Exorcist', 'Get Out', 'The Shawshank Redemption', 'Forrest Gump', 'The Godfather', 'BlackBerry', 'Hypnotic', 'Mercy']
+----------------Day7 start-------------
+11 videos in shop: ['The Notebook', 'Bridesmaids', 'Anchorman', 'The Exorcist', 'Get Out', 'The Shawshank Redemption', 'Forrest Gump', 'The Godfather', 'BlackBerry', 'Hypnotic', 'Mercy']
+----------------Day8 start-------------
+|success return |video=The Hangover 	|status=Onboard 	|duration7 |count=1 |cost=14
+|success lend |video=The Godfather 	|status=Olivia 	|start time=8 	|duration=2 |count=1
+|success lend |video=Anchorman 	|status=Sophia 	|start time=8 	|duration=7 |count=2
+10 videos in shop: ['The Notebook', 'Bridesmaids', 'The Hangover', 'The Exorcist', 'Get Out', 'The Shawshank Redemption', 'Forrest Gump', 'BlackBerry', 'Hypnotic', 'Mercy']
+----------------Day9 start-------------
+|success return |video=The shining 	|status=Onboard 	|duration7 |count=1 |cost=28
+11 videos in shop: ['The Notebook', 'Bridesmaids', 'The Hangover', 'The Exorcist', 'The shining', 'Get Out', 'The Shawshank Redemption', 'Forrest Gump', 'BlackBerry', 'Hypnotic', 'Mercy']
+----------------Day10 start-------------
+|success return |video=The Godfather 	|status=Onboard 	|duration2 |count=0 |cost=8
+|success lend |video=The shining 	|status=Isabella 	|start time=10 	|duration=7 |count=3
+|success lend |video=Get Out 	|status=Emma 	|start time=10 	|duration=2 |count=1
+|success lend |video=The Godfather 	|status=Mia 	|start time=10 	|duration=7 |count=2
+9 videos in shop: ['The Notebook', 'Bridesmaids', 'The Hangover', 'The Exorcist', 'The Shawshank Redemption', 'Forrest Gump', 'BlackBerry', 'Hypnotic', 'Mercy']
+----------------Day11 start-------------
+|success return |video=La La Land 	|status=Onboard 	|duration7 |count=1 |cost=14
+|success return |video=The Conjuring 	|status=Onboard 	|duration7 |count=1 |cost=28
+11 videos in shop: ['The Notebook', 'La La Land', 'Bridesmaids', 'The Hangover', 'The Exorcist', 'The Conjuring', 'The Shawshank Redemption', 'Forrest Gump', 'BlackBerry', 'Hypnotic', 'Mercy']
+----------------Day12 start-------------
+|success return |video=Love Actually 	|status=Onboard 	|duration7 |count=1 |cost=14
+|success return |video=Superbad 	|status=Onboard 	|duration7 |count=0 |cost=14
+|success return |video=Get Out 	|status=Onboard 	|duration2 |count=0 |cost=8
+|success return |video=A star is Born 	|status=Onboard 	|duration7 |count=0 |cost=28
+|success lend |video=The Conjuring 	|status=Aiden 	|start time=12 	|duration=1 |count=1
+|success lend |video=The Shawshank Redemption 	|status=Jackson 	|start time=12 	|duration=2 |count=1
+|success lend |video=BlackBerry 	|status=Jackson 	|start time=12 	|duration=2 |count=2
+|success lend |video=Bridesmaids 	|status=Olivia 	|start time=12 	|duration=2 |count=1
+11 videos in shop: ['The Notebook', 'Love Actually', 'La La Land', 'The Hangover', 'Superbad', 'The Exorcist', 'Get Out', 'Forrest Gump', 'A star is Born', 'Hypnotic', 'Mercy']
+----------------Day13 start-------------
+|success return |video=Titanic 	|status=Onboard 	|duration7 |count=2 |cost=14
+|success return |video=The Conjuring 	|status=Onboard 	|duration1 |count=0 |cost=4
+|success return |video=The Mother 	|status=Onboard 	|duration7 |count=1 |cost=35
+|success lend |video=Love Actually 	|status=Emma 	|start time=13 	|duration=1 |count=1
+|success lend |video=Mercy 	|status=Emma 	|start time=13 	|duration=1 |count=2
+|success lend |video=Hypnotic 	|status=Mia 	|start time=13 	|duration=7 |count=2
+|success lend |video=Titanic 	|status=Jackson 	|start time=13 	|duration=1 |count=3
+10 videos in shop: ['The Notebook', 'La La Land', 'The Hangover', 'Superbad', 'The Exorcist', 'Get Out', 'The Conjuring', 'Forrest Gump', 'A star is Born', 'The Mother']
+----------------Day14 start-------------
+|success return |video=Titanic 	|status=Onboard 	|duration1 |count=2 |cost=2
+|success return |video=Love Actually 	|status=Onboard 	|duration1 |count=1 |cost=2
+|success return |video=Bridesmaids 	|status=Onboard 	|duration2 |count=0 |cost=4
+|success return |video=The Shawshank Redemption 	|status=Onboard 	|duration2 |count=1 |cost=8
+|success return |video=BlackBerry 	|status=Onboard 	|duration2 |count=0 |cost=10
+|success return |video=Mercy 	|status=Onboard 	|duration1 |count=0 |cost=5
+|success lend |video=Forrest Gump 	|status=Sophia 	|start time=14 	|duration=7 |count=2
+|success lend |video=Mercy 	|status=Mia 	|start time=14 	|duration=7 |count=3
+|success lend |video=The Shawshank Redemption 	|status=Ava 	|start time=14 	|duration=7 |count=1
+13 videos in shop: ['The Notebook', 'Titanic', 'Love Actually', 'La La Land', 'Bridesmaids', 'The Hangover', 'Superbad', 'The Exorcist', 'Get Out', 'The Conjuring', 'A star is Born', 'BlackBerry', 'The Mother']
+----------------Day15 start-------------
+|success return |video=Anchorman 	|status=Onboard 	|duration7 |count=1 |cost=14
+|success lend |video=Love Actually 	|status=Jackson 	|start time=15 	|duration=2 |count=1
+|success lend |video=BlackBerry 	|status=Isabella 	|start time=15 	|duration=7 |count=2
+12 videos in shop: ['The Notebook', 'Titanic', 'La La Land', 'Bridesmaids', 'The Hangover', 'Superbad', 'Anchorman', 'The Exorcist', 'Get Out', 'The Conjuring', 'A star is Born', 'The Mother']
+----------------Day16 start-------------
+12 videos in shop: ['The Notebook', 'Titanic', 'La La Land', 'Bridesmaids', 'The Hangover', 'Superbad', 'Anchorman', 'The Exorcist', 'Get Out', 'The Conjuring', 'A star is Born', 'The Mother']
+----------------Day17 start-------------
+|success return |video=Love Actually 	|status=Onboard 	|duration2 |count=0 |cost=4
+|success return |video=The shining 	|status=Onboard 	|duration7 |count=1 |cost=28
+|success return |video=The Godfather 	|status=Onboard 	|duration7 |count=2 |cost=28
+|success lend |video=Get Out 	|status=Emma 	|start time=17 	|duration=2 |count=1
+|success lend |video=Love Actually 	|status=Noah 	|start time=17 	|duration=7 |count=1
+13 videos in shop: ['The Notebook', 'Titanic', 'La La Land', 'Bridesmaids', 'The Hangover', 'Superbad', 'Anchorman', 'The Exorcist', 'The shining', 'The Conjuring', 'The Godfather', 'A star is Born', 'The Mother']
+----------------Day18 start-------------
+|success lend |video=The Notebook 	|status=Liam 	|start time=18 	|duration=7 |count=1
+|success lend |video=Anchorman 	|status=Isabella 	|start time=18 	|duration=7 |count=2
+11 videos in shop: ['Titanic', 'La La Land', 'Bridesmaids', 'The Hangover', 'Superbad', 'The Exorcist', 'The shining', 'The Conjuring', 'The Godfather', 'A star is Born', 'The Mother']
+----------------Day19 start-------------
+|success return |video=Get Out 	|status=Onboard 	|duration2 |count=0 |cost=8
+|success lend |video=Superbad 	|status=Jackson 	|start time=19 	|duration=2 |count=1
+|success lend |video=The Mother 	|status=Ava 	|start time=19 	|duration=7 |count=2
+10 videos in shop: ['Titanic', 'La La Land', 'Bridesmaids', 'The Hangover', 'The Exorcist', 'The shining', 'Get Out', 'The Conjuring', 'The Godfather', 'A star is Born']
+----------------Day20 start-------------
+|success return |video=Hypnotic 	|status=Onboard 	|duration7 |count=1 |cost=35
+|success lend |video=The Conjuring 	|status=Noah 	|start time=20 	|duration=7 |count=2
+|success lend |video=Get Out 	|status=Noah 	|start time=20 	|duration=7 |count=3
+9 videos in shop: ['Titanic', 'La La Land', 'Bridesmaids', 'The Hangover', 'The Exorcist', 'The shining', 'The Godfather', 'A star is Born', 'Hypnotic']
+----------------Day21 start-------------
+|success return |video=Superbad 	|status=Onboard 	|duration2 |count=0 |cost=4
+|success return |video=The Shawshank Redemption 	|status=Onboard 	|duration7 |count=1 |cost=28
+|success return |video=Forrest Gump 	|status=Onboard 	|duration7 |count=0 |cost=28
+|success return |video=Mercy 	|status=Onboard 	|duration7 |count=0 |cost=35
+|success lend |video=Bridesmaids 	|status=Jackson 	|start time=21 	|duration=1 |count=1
+|success lend |video=Mercy 	|status=Liam 	|start time=21 	|duration=7 |count=2
+|success lend |video=The Hangover 	|status=Ava 	|start time=21 	|duration=7 |count=2
+10 videos in shop: ['Titanic', 'La La Land', 'Superbad', 'The Exorcist', 'The shining', 'The Shawshank Redemption', 'Forrest Gump', 'The Godfather', 'A star is Born', 'Hypnotic']
+----------------Day22 start-------------
+|success return |video=Bridesmaids 	|status=Onboard 	|duration1 |count=0 |cost=2
+|success return |video=BlackBerry 	|status=Onboard 	|duration7 |count=1 |cost=35
+12 videos in shop: ['Titanic', 'La La Land', 'Bridesmaids', 'Superbad', 'The Exorcist', 'The shining', 'The Shawshank Redemption', 'Forrest Gump', 'The Godfather', 'A star is Born', 'BlackBerry', 'Hypnotic']
+----------------Day23 start-------------
+|success lend |video=The Godfather 	|status=Isabella 	|start time=23 	|duration=7 |count=2
+11 videos in shop: ['Titanic', 'La La Land', 'Bridesmaids', 'Superbad', 'The Exorcist', 'The shining', 'The Shawshank Redemption', 'Forrest Gump', 'A star is Born', 'BlackBerry', 'Hypnotic']
+----------------Day24 start-------------
+|success return |video=Love Actually 	|status=Onboard 	|duration7 |count=2 |cost=14
+12 videos in shop: ['Titanic', 'Love Actually', 'La La Land', 'Bridesmaids', 'Superbad', 'The Exorcist', 'The shining', 'The Shawshank Redemption', 'Forrest Gump', 'A star is Born', 'BlackBerry', 'Hypnotic']
+----------------Day25 start-------------
+|success return |video=The Notebook 	|status=Onboard 	|duration7 |count=1 |cost=14
+|success return |video=Anchorman 	|status=Onboard 	|duration7 |count=1 |cost=14
+|success lend |video=A star is Born 	|status=Sophia 	|start time=25 	|duration=7 |count=1
+|success lend |video=Hypnotic 	|status=Aiden 	|start time=25 	|duration=2 |count=1
+12 videos in shop: ['The Notebook', 'Titanic', 'Love Actually', 'La La Land', 'Bridesmaids', 'Superbad', 'Anchorman', 'The Exorcist', 'The shining', 'The Shawshank Redemption', 'Forrest Gump', 'BlackBerry']
+----------------Day26 start-------------
+|success return |video=The Mother 	|status=Onboard 	|duration7 |count=1 |cost=35
+|success lend |video=The Notebook 	|status=Aiden 	|start time=26 	|duration=2 |count=2
+|success lend |video=BlackBerry 	|status=Liam 	|start time=26 	|duration=7 |count=2
+11 videos in shop: ['Titanic', 'Love Actually', 'La La Land', 'Bridesmaids', 'Superbad', 'Anchorman', 'The Exorcist', 'The shining', 'The Shawshank Redemption', 'Forrest Gump', 'The Mother']
+----------------Day27 start-------------
+|success return |video=Get Out 	|status=Onboard 	|duration7 |count=1 |cost=28
+|success return |video=The Conjuring 	|status=Onboard 	|duration7 |count=0 |cost=28
+|success return |video=Hypnotic 	|status=Onboard 	|duration2 |count=1 |cost=10
+|success lend |video=La La Land 	|status=Emma 	|start time=27 	|duration=2 |count=1
+|success lend |video=Hypnotic 	|status=Emma 	|start time=27 	|duration=2 |count=2
+|success lend |video=The Shawshank Redemption 	|status=Olivia 	|start time=27 	|duration=1 |count=1
+11 videos in shop: ['Titanic', 'Love Actually', 'Bridesmaids', 'Superbad', 'Anchorman', 'The Exorcist', 'The shining', 'Get Out', 'The Conjuring', 'Forrest Gump', 'The Mother']
+----------------Day28 start-------------
+|success return |video=The Notebook 	|status=Onboard 	|duration2 |count=0 |cost=4
+|success return |video=The Hangover 	|status=Onboard 	|duration7 |count=0 |cost=14
+|success return |video=The Shawshank Redemption 	|status=Onboard 	|duration1 |count=0 |cost=4
+|success return |video=Mercy 	|status=Onboard 	|duration7 |count=1 |cost=35
+|success lend |video=The Conjuring 	|status=Liam 	|start time=28 	|duration=7 |count=2
+|success lend |video=Anchorman 	|status=Emma 	|start time=28 	|duration=1 |count=3
+13 videos in shop: ['The Notebook', 'Titanic', 'Love Actually', 'Bridesmaids', 'The Hangover', 'Superbad', 'The Exorcist', 'The shining', 'Get Out', 'The Shawshank Redemption', 'Forrest Gump', 'The Mother', 'Mercy']
+----------------Day29 start-------------
+|success return |video=La La Land 	|status=Onboard 	|duration2 |count=2 |cost=4
+|success return |video=Anchorman 	|status=Onboard 	|duration1 |count=1 |cost=2
+|success return |video=Hypnotic 	|status=Onboard 	|duration2 |count=0 |cost=10
+|success lend |video=The Mother 	|status=Mia 	|start time=29 	|duration=7 |count=1
+|success lend |video=Bridesmaids 	|status=Aiden 	|start time=29 	|duration=1 |count=1
+14 videos in shop: ['The Notebook', 'Titanic', 'Love Actually', 'La La Land', 'The Hangover', 'Superbad', 'Anchorman', 'The Exorcist', 'The shining', 'Get Out', 'The Shawshank Redemption', 'Forrest Gump', 'Hypnotic', 'Mercy']
+----------------Day30 start-------------
+|success return |video=Bridesmaids 	|status=Onboard 	|duration1 |count=0 |cost=2
+|success return |video=The Godfather 	|status=Onboard 	|duration7 |count=0 |cost=28
+|success lend |video=Get Out 	|status=Isabella 	|start time=30 	|duration=7 |count=1
+|success lend |video=Bridesmaids 	|status=Liam 	|start time=30 	|duration=7 |count=3
+14 videos in shop: ['The Notebook', 'Titanic', 'Love Actually', 'La La Land', 'The Hangover', 'Superbad', 'Anchorman', 'The Exorcist', 'The shining', 'The Shawshank Redemption', 'Forrest Gump', 'The Godfather', 'Hypnotic', 'Mercy']
+----------------Day31 start-------------
+14 videos in shop: ['The Notebook', 'Titanic', 'Love Actually', 'La La Land', 'The Hangover', 'Superbad', 'Anchorman', 'The Exorcist', 'The shining', 'The Shawshank Redemption', 'Forrest Gump', 'The Godfather', 'Hypnotic', 'Mercy']
+----------------Day32 start-------------
+|success return |video=A star is Born 	|status=Onboard 	|duration7 |count=0 |cost=28
+|success lend |video=The Hangover 	|status=Sophia 	|start time=32 	|duration=7 |count=1
+|success lend |video=The Shawshank Redemption 	|status=Olivia 	|start time=32 	|duration=2 |count=1
+|success lend |video=La La Land 	|status=Isabella 	|start time=32 	|duration=7 |count=2
+|success lend |video=The Godfather 	|status=Jackson 	|start time=32 	|duration=1 |count=1
+11 videos in shop: ['The Notebook', 'Titanic', 'Love Actually', 'Superbad', 'Anchorman', 'The Exorcist', 'The shining', 'Forrest Gump', 'A star is Born', 'Hypnotic', 'Mercy']
+----------------Day33 start-------------
+|success return |video=The Godfather 	|status=Onboard 	|duration1 |count=0 |cost=4
+|success return |video=BlackBerry 	|status=Onboard 	|duration7 |count=2 |cost=35
+13 videos in shop: ['The Notebook', 'Titanic', 'Love Actually', 'Superbad', 'Anchorman', 'The Exorcist', 'The shining', 'Forrest Gump', 'The Godfather', 'A star is Born', 'BlackBerry', 'Hypnotic', 'Mercy']
+----------------Day34 start-------------
+|success return |video=The Shawshank Redemption 	|status=Onboard 	|duration2 |count=0 |cost=8
+14 videos in shop: ['The Notebook', 'Titanic', 'Love Actually', 'Superbad', 'Anchorman', 'The Exorcist', 'The shining', 'The Shawshank Redemption', 'Forrest Gump', 'The Godfather', 'A star is Born', 'BlackBerry', 'Hypnotic', 'Mercy']
+----------------Day35 start-------------
+|success return |video=La La Land 	|status=Onboard 	|duration7 |count=1 |cost=6
+|success return |video=Bridesmaids 	|status=Onboard 	|duration7 |count=1 |cost=10
+|success return |video=The Hangover 	|status=Onboard 	|duration7 |count=0 |cost=6
+|success return |video=Get Out 	|status=Onboard 	|duration7 |count=0 |cost=20
+|success return |video=The Conjuring 	|status=Onboard 	|duration7 |count=0 |cost=28
+|success return |video=The Mother 	|status=Onboard 	|duration7 |count=0 |cost=30
+20 videos in shop: ['The Notebook', 'Titanic', 'Love Actually', 'La La Land', 'Bridesmaids', 'The Hangover', 'Superbad', 'Anchorman', 'The Exorcist', 'The shining', 'Get Out', 'The Conjuring', 'The Shawshank Redemption', 'Forrest Gump', 'The Godfather', 'A star is Born', 'BlackBerry', 'Hypnotic', 'The Mother', 'Mercy']
+total income 822
