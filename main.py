@@ -52,9 +52,9 @@ class Main:
                 #self.store.Customer_list[n].ReturnVideo(video = self.store.videos_list[video_type][video_slot], person = self.store.Customer_list[n], price = self.store.videos_list[video_type][video_slot].price)
 main = Main()
 main.set_customer()
-main.show_customer()
+#main.show_customer()
 main.set_videos()
-main.show_video()
+#main.show_video()
 for i in range(1,36):
     main.run(i)
 
