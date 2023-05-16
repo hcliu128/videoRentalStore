@@ -5,6 +5,7 @@ class Person:
         self.Name = Name
         self.Video_Count = Video_Count
         self.Character = Character
+        self.data = {}
 
     def Rentvideo(self,**kwargs):
         (person, video, startTime,onboard,videostore) = (kwargs['person'], kwargs['video'], kwargs['startTime'],kwargs['onboard'],kwargs['videostore'])
@@ -12,7 +13,7 @@ class Person:
             video.status = self.Name
             video.startTime = startTime
             person.Video_Count += 1
-            print(self.Character)
+            #print(self.Character)
             if self.Character == 'Breezy':
                 video.duration = random.randint(1,2)
             elif self.Character == 'Hoarders':
@@ -23,10 +24,9 @@ class Person:
                 print('error')
             videostore.videoInventory-=1
             print('|success lend','|video='+video.videoName,'\t|status='+video.status,'\t|start time='+str(video.startTime),'\t|duration='+str(video.duration),'|count='+str(self.Video_Count))
-            print(f'resting {videostore.videoInventory}')
+            #print(f'resting {videostore.videoInventory}')
 
     def ReturnVideo(self,**kwargs):
-        data = {}
         (person, video, price) = (kwargs['person'], kwargs['video'], kwargs['price'])
         video.status = 'Onboard'
         startTime = video.startTime
@@ -35,13 +35,11 @@ class Person:
             duration = 35 - startTime
             #print(f'change duration to {duration}')
         person.Video_Count -= 1
-        data['person'] = self.Name
-        data['video'] = video.videoName
-        data['rental_day'] = video.duration
-        data['cost'] = duration * price
-        videostore.VideoStore.Daily_record(data)
-        #print(data)
-        print('|success return','|video='+video.videoName,'\t|status='+video.status,'\t|duration'+str(video.duration),'|count='+str(person.Video_Count))
+        self.data['person'] = self.Name
+        self.data['video'] = video.videoName
+        self.data['rental_day'] = video.duration
+        self.data['cost'] = duration * price
+        print('|success return','|video='+video.videoName,'\t|status='+video.status,'\t|duration'+str(video.duration),'|count='+str(person.Video_Count),'|cost='+str(duration * price))
         video.startTime = 0
-        video.duration = 0        
+        video.duration = 0
     

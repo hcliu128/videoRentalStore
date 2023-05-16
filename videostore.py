@@ -23,9 +23,10 @@ class VideoStore:
             for j in range(4):
                 print(self.videos_list[i][j].videoName,self.videos_list[i][j].status,self.videos_list[i][j].startTime,self.videos_list[i][j].duration)
     
-    def Daily_record(self,data):
-        self.__dailyRecord.append(data)
-
+    def total_count(self,money):
+        self.__income+=money
+    def show_income(self):
+        print('total income',self.__income)
     def check_return(self,day):
         for i in range(5):
             for j in range(4):
@@ -35,6 +36,7 @@ class VideoStore:
                         if self.videos_list[i][j].status == self.Customer_list[k].Name:
                             self.Customer_list[k].ReturnVideo(video = self.videos_list[i][j], person = self.Customer_list[k], price = self.videos_list[i][j].price)
                             self.videoInventory+=1
+                            self.total_count(self.Customer_list[k].data['cost']) 
                             #print(f'resting{self.videoInventory}')
                             break
                 if day==35:
@@ -48,7 +50,7 @@ class VideoStore:
                                         self.videoInventory+=1
                                         #print(f'resting {self.videoInventory}')
                                         break
-    
+        
     def video_in_shop(self,day):
         toady =[]
         for i in range(5):
