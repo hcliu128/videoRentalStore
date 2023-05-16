@@ -35,11 +35,13 @@ class Horror(Video):
         self.duration = duration
 
 class Drama(Video):
-    def __init__(self, videoName, status, startTime, duration):
+    def __init__(self, videoName, status, startTime,duration):
         self.videoName = videoName
         self.price = 4 # undetermined
         self.status = status
         self.startTime = startTime
         self.duration = duration
+
+
 
 
