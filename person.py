@@ -18,7 +18,7 @@ class Person:
             elif self.Character == 'Hoarders':
                 video.duration = 7
             elif self.Character == 'Regular':
-                video.duartion = random.randint(3, 5)
+                video.duration = random.randint(3, 5)
             else:
                 print('error')
             videostore.videoInventory-=1
