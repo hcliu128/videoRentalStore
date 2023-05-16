@@ -1,3 +1,5 @@
+import random
+
 class VideoStore:
     def __init__(self):
         self.videos_list = [[0 for j in range(4)] for i in range(5)]
@@ -22,7 +24,6 @@ class VideoStore:
         for i in range(5):
             for j in range(4):
                 print(self.videos_list[i][j].videoName,self.videos_list[i][j].status,self.videos_list[i][j].startTime,self.videos_list[i][j].duration)
-    
     def total_count(self,money):
         self.__income+=money
     def show_income(self):
@@ -62,3 +63,4 @@ class VideoStore:
 
 
         
+

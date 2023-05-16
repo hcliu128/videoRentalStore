@@ -15,6 +15,7 @@ class Main:
         self.Drama_video = ['The Shawshank Redemption','Forrest Gump','The Godfather','A star is Born']
         self.New_release_video = ['BlackBerry','Hypnotic','The Mother','Mercy']
         self.store = videostore.VideoStore()
+        self.onboard = 20
     def set_customer(self):
         for i in range(10):
             rd = random.randint(0, 2)
@@ -52,11 +53,13 @@ class Main:
         self.store.video_in_shop(day)
         if day==35:
             self.store.show_income()
+
 main = Main()
 main.set_customer()
 #main.show_customer()
 main.set_videos()
 #main.show_video()
+
 for i in range(1,36):
     main.run(i)
 
